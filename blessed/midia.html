@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Vídeo, áudio e mapa do projeto BLESSED.">
+<meta name="author" content="Equipe BLESSED">
+<title>Mídia | BLESSED</title>
+<link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;800&amp;display=swap">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip-link" href="#main-content">Pular para o conteúdo principal</a>
+<div class="a11y-bar"><div class="container a11y-inner">
+<span>Acessibilidade:</span>
+<button type="button" id="toggle-contrast" aria-pressed="false">Alto contraste</button>
+<button type="button" id="font-down" aria-label="Diminuir tamanho da fonte">A-</button>
+<button type="button" id="font-up" aria-label="Aumentar tamanho da fonte">A+</button>
+</div></div>
+<header class="header"><div class="container header-inner">
+<a class="logo" href="index.html" aria-label="BLESSED, página inicial">BLESSED<span>.</span></a>
+<button type="button" class="menu-toggle" id="menu-toggle" aria-expanded="false" aria-controls="site-nav">Menu</button>
+<nav class="nav" id="site-nav" aria-label="Navegação principal"><ul><li><a href="index.html">Home</a></li><li><a href="sobre.html">Sobre</a></li><li><a href="projetos.html">Projetos</a></li><li><a href="impacto.html">Impacto</a></li><li><a href="acessibilidade.html">Acessibilidade</a></li><li><a href="galeria.html">Galeria</a></li><li><a href="midia.html" aria-current="page">Mídia</a></li><li><a href="noticias.html">Notícias</a></li><li><a href="contato.html">Contato</a></li><li><a href="orcamento_hospedagem.html">Orçamento</a></li></ul></nav>
+</div></header>
+<main id="main-content" tabindex="-1">
+<section class="page-hero" aria-labelledby="h1"><div class="container"><h1 id="h1">Mídia</h1><p>Vídeo, áudio e mapa com recursos de acessibilidade.</p></div></section>
+<section class="section" aria-labelledby="v"><div class="container"><h2 id="v">Vídeo institucional</h2>
+<video controls poster="img/poster.jpg" preload="metadata" width="640" height="360">
+<source src="assets/video-institucional.mp4" type="video/mp4">
+<track kind="captions" src="assets/video-legendas.vtt" srclang="pt-BR" label="Português" default>
+Seu navegador não reproduz vídeo. <a href="assets/video-institucional.mp4">Baixe o vídeo</a>.</video>
+<p class="fonte">Transcrição: animação sem narração. Na tela aparecem “BLESSED. Ações locais, futuro sustentável” e depois “Separe, reduza, reutilize, recicle”. Produção própria da equipe.</p></div></section>
+<section class="section alt" aria-labelledby="a"><div class="container"><h2 id="a">Vinheta sonora</h2>
+<audio controls preload="none"><source src="assets/vinheta.mp3" type="audio/mpeg">Seu navegador não reproduz áudio. <a href="assets/vinheta.mp3">Baixe o áudio</a>.</audio>
+<p class="fonte">Transcrição: sequência de quatro notas musicais ascendentes, sem fala. Produção própria da equipe.</p></div></section>
+<section class="section" aria-labelledby="m"><div class="container"><h2 id="m">Mapa da região de atuação</h2>
+<p>Região central de São Paulo, onde pretendemos mapear pontos de coleta.</p>
+<iframe class="map" title="Mapa da região central de São Paulo" loading="lazy" src="https://www.openstreetmap.org/export/embed.html?bbox=-46.68%2C-23.58%2C-46.60%2C-23.52&amp;layer=mapnik"></iframe>
+<p class="fonte">Mapa: OpenStreetMap contributors.</p></div></section>
+
+</main>
+<footer class="footer"><div class="container">
+<div class="footer-grid">
+<div><h2>BLESSED.</h2><p>Plataforma de educação ambiental e engajamento social. Projeto acadêmico da UNICID, alinhado aos ODS 11, 12 e 13 da ONU.</p></div>
+<nav aria-label="Mapa do site"><h2>Mapa do site</h2><ul><li><a href="index.html">Home</a></li><li><a href="sobre.html">Sobre</a></li><li><a href="projetos.html">Projetos</a></li><li><a href="impacto.html">Impacto</a></li><li><a href="acessibilidade.html">Acessibilidade</a></li><li><a href="galeria.html">Galeria</a></li><li><a href="midia.html">Mídia</a></li><li><a href="noticias.html">Notícias</a></li><li><a href="contato.html">Contato</a></li><li><a href="orcamento_hospedagem.html">Orçamento</a></li></ul></nav>
+<div><h2>Contato</h2><p>contato@blessed.example<br>São Paulo, SP</p></div>
+</div>
+<small>&copy; 2026 Projeto BLESSED. Imagens autorais em SVG. Desenvolvido por Lucas e José Samuel.</small>
+</div></footer>
+<script src="js/script.js" defer></script>
+</body>
+</html>
