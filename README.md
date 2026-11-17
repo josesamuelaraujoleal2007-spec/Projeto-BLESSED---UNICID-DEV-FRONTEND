@@ -13,7 +13,7 @@ Projeto de Desenvolvimento Front-End para Web (UNICID 2026.2) – 2ª entrega (A
 | Integrante | RGM | Função |
 |---|---|---|
 | Lucas Nascimento Dias | 47571195 | Páginas, conteúdo, mídia e documentação |
-| José Samuel Araujo Leal | 47760384 | JavaScript, CSS, acessibilidade e deploy |
+| José Samuel Araujo Leal | 47660384 | JavaScript, CSS, acessibilidade e deploy |
 
 ## Páginas (10)
 `index`, `sobre`, `projetos`, `impacto`, `acessibilidade`, `galeria`, `midia`, `noticias`, `contato`, `orcamento_hospedagem`.
