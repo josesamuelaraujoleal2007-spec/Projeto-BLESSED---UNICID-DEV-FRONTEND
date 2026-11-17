@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Medidas de inclusão para pessoas com deficiência no site BLESSED.">
+<meta name="author" content="Equipe BLESSED">
+<title>Acessibilidade | BLESSED</title>
+<link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;800&amp;display=swap">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip-link" href="#main-content">Pular para o conteúdo principal</a>
+<div class="a11y-bar"><div class="container a11y-inner">
+<span>Acessibilidade:</span>
+<button type="button" id="toggle-contrast" aria-pressed="false">Alto contraste</button>
+<button type="button" id="font-down" aria-label="Diminuir tamanho da fonte">A-</button>
+<button type="button" id="font-up" aria-label="Aumentar tamanho da fonte">A+</button>
+</div></div>
+<header class="header"><div class="container header-inner">
+<a class="logo" href="index.html" aria-label="BLESSED, página inicial">BLESSED<span>.</span></a>
+<button type="button" class="menu-toggle" id="menu-toggle" aria-expanded="false" aria-controls="site-nav">Menu</button>
+<nav class="nav" id="site-nav" aria-label="Navegação principal"><ul><li><a href="index.html">Home</a></li><li><a href="sobre.html">Sobre</a></li><li><a href="projetos.html">Projetos</a></li><li><a href="impacto.html">Impacto</a></li><li><a href="acessibilidade.html" aria-current="page">Acessibilidade</a></li><li><a href="galeria.html">Galeria</a></li><li><a href="midia.html">Mídia</a></li><li><a href="noticias.html">Notícias</a></li><li><a href="contato.html">Contato</a></li><li><a href="orcamento_hospedagem.html">Orçamento</a></li></ul></nav>
+</div></header>
+<main id="main-content" tabindex="-1">
+<section class="page-hero" aria-labelledby="h1"><div class="container"><h1 id="h1">Acessibilidade</h1><p>Medidas de inclusão para pessoas com deficiência.</p></div></section>
+<section class="section" aria-labelledby="rec"><div class="container"><h2 id="rec">Medidas por tipo de deficiência</h2>
+<div class="grid">
+<article class="card"><h3>Visual</h3><p>Textos alternativos, estrutura de títulos para leitores de tela, alto contraste e fonte de 90% a 130%.</p></article>
+<article class="card"><h3>Motora</h3><p>Site inteiro usável só com teclado, foco visível, botões grandes e sem limite de tempo.</p></article>
+<article class="card"><h3>Auditiva</h3><p>Vídeo com legendas e áudio com transcrição em texto.</p></article>
+<article class="card"><h3>Cognitiva</h3><p>Linguagem simples, frases curtas, menu consistente e mensagens de erro claras.</p></article>
+</div></div></section>
+<section class="section alt" aria-labelledby="rec2"><div class="container"><h2 id="rec2">Recursos técnicos</h2>
+<ul>
+<li><strong>Alto contraste:</strong> botão na barra superior; a escolha fica salva.</li>
+<li><strong>Tamanho da fonte:</strong> botões A- e A+.</li>
+<li><strong>Pular para o conteúdo:</strong> primeiro item ao pressionar Tab.</li>
+<li><strong>Formulários:</strong> rótulos associados, erros anunciados por leitor de tela e indicados por ícone, não só por cor.</li>
+<li><strong>Idioma e estrutura:</strong> <code>lang="pt-BR"</code>, títulos hierárquicos e marcação semântica.</li>
+<li><strong>Contraste:</strong> pares de cores com razão mínima de 4,5:1 (nível AA).</li>
+</ul>
+<h2>Atalhos de teclado</h2>
+<ul><li><kbd>Tab</kbd> e <kbd>Shift</kbd>+<kbd>Tab</kbd>: avançar e voltar.</li><li><kbd>Enter</kbd> ou <kbd>Espaço</kbd>: ativar links e botões.</li><li><kbd>Esc</kbd>: fechar o menu no celular.</li></ul>
+<h2>Padrões seguidos</h2><p>Buscamos o nível AA das diretrizes WCAG 2.1 e do eMAG, do governo brasileiro.</p>
+<h2>Encontrou uma barreira?</h2><p>Avise pelo <a href="contato.html">formulário de contato</a> e corrigiremos.</p></div></section>
+<section class="cta" aria-labelledby="cta-t"><div class="container">
+<h2 id="cta-t">Faça parte da mudança</h2>
+<p>Cadastre-se como voluntário e ajude a levar educação ambiental para a sua comunidade.</p>
+<a class="btn" href="contato.html#voluntariado">Quero ser voluntário</a></div></section>
+</main>
+<footer class="footer"><div class="container">
+<div class="footer-grid">
+<div><h2>BLESSED.</h2><p>Plataforma de educação ambiental e engajamento social. Projeto acadêmico da UNICID, alinhado aos ODS 11, 12 e 13 da ONU.</p></div>
+<nav aria-label="Mapa do site"><h2>Mapa do site</h2><ul><li><a href="index.html">Home</a></li><li><a href="sobre.html">Sobre</a></li><li><a href="projetos.html">Projetos</a></li><li><a href="impacto.html">Impacto</a></li><li><a href="acessibilidade.html">Acessibilidade</a></li><li><a href="galeria.html">Galeria</a></li><li><a href="midia.html">Mídia</a></li><li><a href="noticias.html">Notícias</a></li><li><a href="contato.html">Contato</a></li><li><a href="orcamento_hospedagem.html">Orçamento</a></li></ul></nav>
+<div><h2>Contato</h2><p>contato@blessed.example<br>São Paulo, SP</p></div>
+</div>
+<small>&copy; 2026 Projeto BLESSED. Imagens autorais em SVG. Desenvolvido por Lucas e José Samuel.</small>
+</div></footer>
+<script src="js/script.js" defer></script>
+</body>
+</html>
