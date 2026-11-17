@@ -2,7 +2,7 @@
 Projeto de Desenvolvimento Front-End para Web (UNICID 2026.2) – 2ª entrega (AV A1).
 
 - **Site publicado (HTTPS):** https://josesamuelaraujoleal2007-spec.github.io/Projeto-BLESSED---UNICID-DEV-FRONTEND/sobre.html
-- **Repositório:** `[COLAR A URL DO REPOSITÓRIO]`
+- **Repositório:** https://github.com/josesamuelaraujoleal2007-spec/Projeto-BLESSED---UNICID-DEV-FRONTEND
 
 ## Tema e objetivos
 **Tema:** sustentabilidade e impacto social (ODS 11, 12 e 13).
