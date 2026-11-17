@@ -17,4 +17,20 @@
 | 16/11 | Gerar as 10 páginas, CSS e JS conforme a rubrica | Estrutura, validação, localStorage, menu | [escrever o que mudaram] |
 | [dd/mm] | [novo prompt] | | |
 
+## Rodada final de testes e validações
+
+Nesta etapa, executei o plano de testes descrito em docs/testes.md e registrei
+as evidências em docs/evidencias/. Utilizei os validadores W3C para HTML e CSS,
+o Lighthouse para acessibilidade e desempenho, e o modo dispositivo do navegador
+para conferir o layout em celular, tablet e desktop.
+
+Também testei a navegação apenas por teclado, o foco visível, o formulário de
+contato (com erro e com sucesso), o armazenamento em localStorage e a persistência
+das opções de alto contraste e tamanho de fonte ao recarregar e trocar de página.
+Por fim, conferi os 10 links do menu e confirmei que o site está online com HTTPS
+pelo GitHub Pages.
+
+Comparei o resultado final com o design planejado, ajustei o que estava diferente
+e publiquei tudo no GitHub. Com isso, o projeto está concluído.
+
 **Cada integrante deve conseguir explicar:** a função `validarCampo`, o uso de `preventDefault`, como o `localStorage` guarda os envios e como o alto contraste muda as variáveis CSS.
