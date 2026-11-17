@@ -13,4 +13,4 @@
 | 10 | Sem orçamento de hospedagem | `orcamento_hospedagem.html` com 3 hospedagens, 3 domínios e justificativa |
 | 11 | Sem publicação | Deploy no GitHub Pages com HTTPS |
 
-`[ADICIONAR os pontos do feedback do professor na 1ª entrega que não estiverem acima]`
+
