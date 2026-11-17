@@ -1,1 +1,0 @@
-O orçamento completo, com 3 hospedagens, 3 domínios, tabela comparativa e justificativa, está em `orcamento_hospedagem.html`. Resumo: hospedagem no GitHub Pages (R$ 0, HTTPS automático); domínio próprio opcional (.com.br no Registro.br, R$ 40/ano). Preços consultados em 17/11/2026; confirmar antes de contratar.
