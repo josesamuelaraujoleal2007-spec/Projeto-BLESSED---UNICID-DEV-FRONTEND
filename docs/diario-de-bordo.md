@@ -8,7 +8,7 @@
 | 16/11 | Análise da rubrica 2.0 × MVP e plano de correções | Todos | docs/melhorias-mvp.md |
 | 16/11 | Decisão: GitHub Pages (custo zero, HTTPS) | Todos | docs/orcamento.md |
 | 16/11 | Decisão: ilustrações em SVG autorais em vez de fotos | Todos | assets/img |
-| 17/11 | Testes (W3C, Lighthouse, teclado, celular) | [nome] | docs/testes.md |
+| 17/11 | Testes (W3C, Lighthouse, teclado, celular) | José Samuel | docs/testes.md |
 
 ## Uso de IA (prompts, aceito, corrigido)
 | Data | Prompt resumido | O que foi aceito | O que corrigimos / entendemos |
