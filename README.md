@@ -1,7 +1,7 @@
 # BLESSED – Plataforma de sustentabilidade e impacto social
 Projeto de Desenvolvimento Front-End para Web (UNICID 2026.2) – 2ª entrega (AV A1).
 
-- **Site publicado (HTTPS):** `[COLAR A URL DO GITHUB PAGES]`
+- **Site publicado (HTTPS):** https://josesamuelaraujoleal2007-spec.github.io/Projeto-BLESSED---UNICID-DEV-FRONTEND/sobre.html
 - **Repositório:** `[COLAR A URL DO REPOSITÓRIO]`
 
 ## Tema e objetivos
