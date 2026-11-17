@@ -15,7 +15,6 @@
 |---|---|---|---|
 | 16/11 | Comparar rubrica 2.0 com o projeto da 1ª entrega | Lista de lacunas por critério | A ausencia de funções de CSS, JS e as 10 Paginas, além de outras funcionalidades |
 | 16/11 | Gerar as 10 páginas, CSS e JS conforme a rubrica | Estrutura, validação, localStorage, menu | Nada. |
-| 17/11 | ANALISE DE PROJETOS 1.0 COM 2.0 | Processos de Arquivação do Projeto para rodar de forma correta | Nada ||
 
  
 
